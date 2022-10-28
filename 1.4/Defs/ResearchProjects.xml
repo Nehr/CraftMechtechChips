@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  
+	<ResearchProjectDef ParentName="MechtechBase">
+    <defName>SignalChipCrafting</defName>
+    <label>signal chip crafting</label>
+    <description>The technology needed for your mechanitor to craft mechanoid-band synchronization micro-organs, also known as signal chips.</description>
+    <baseCost>20</baseCost>
+    <techprintMarketValue>2000</techprintMarketValue>
+    <requiredResearchFacilities>
+      <li>MultiAnalyzer</li>
+    </requiredResearchFacilities>
+    <prerequisites>
+      <li>StandardMechtech</li>
+    </prerequisites>
+    <requiredStudied>
+      <li>SignalChip</li>
+    </requiredStudied>
+    <researchViewX>16.00</researchViewX>
+    <researchViewY>0.20</researchViewY>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef ParentName="MechtechBase">
+    <defName>PowerfocusChipCrafting</defName>
+    <label>powerfocus chip crafting</label>
+    <description>The technology needed for your mechanitor to craft energy-focusing mechanoid micro-organs, also known as powerfocus chips.</description>
+    <baseCost>40</baseCost>
+    <techprintMarketValue>4000</techprintMarketValue>
+    <requiredResearchFacilities>
+      <li>MultiAnalyzer</li>
+    </requiredResearchFacilities>
+    <prerequisites>
+      <li>HighMechtech</li>
+      <li>SignalChipCrafting</li>
+    </prerequisites>
+    <requiredStudied>
+      <li>PowerfocusChip</li>
+    </requiredStudied>
+    <researchViewX>16.80</researchViewX>
+    <researchViewY>0.20</researchViewY>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef ParentName="MechtechBase">
+    <defName>NanostructuringChipCrafting</defName>
+    <label>nano structuring chip crafting</label>
+    <description>The technology needed for your mechanitor to craft molecular-restructing mechanoid micro-organs, also known as nano structuring chips.</description>
+    <baseCost>60</baseCost>
+    <techprintMarketValue>6000</techprintMarketValue>
+    <requiredResearchFacilities>
+      <li>MultiAnalyzer</li>
+    </requiredResearchFacilities>
+    <prerequisites>
+      <!-- <li>UltraMechtech</li> -->
+      <li>HighMechtech</li>
+      <li>PowerfocusChipCrafting</li>
+    </prerequisites>
+    <requiredStudied>
+      <!-- <li>NanostructuringChip</li> -->
+      <li>PowerfocusChip</li>
+    </requiredStudied>
+    <researchViewX>17.60</researchViewX>
+    <researchViewY>0.20</researchViewY>
+  </ResearchProjectDef>
+
+</Defs>
