@@ -70,7 +70,7 @@
     </products>
     <researchPrerequisite>SignalChipCrafting</researchPrerequisite>
     <skillRequirements>
-      <Crafting>10</Crafting>
+      <Crafting>8</Crafting>
       <Intellectual>14</Intellectual>
     </skillRequirements>
   </RecipeDef>
@@ -78,7 +78,7 @@
   <RecipeDef>
     <defName>Craft_PowerfocusChip</defName>
     <label>craft powerfocus chip</label>
-    <description>Craft a powerfocus chip, normally dropped by the Warqueen.</description>
+    <description>Craft a powerfocus chip, normally dropped by Warqueen.</description>
     <jobString>Crafting a powerfocus chip.</jobString>
     <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
     <effectWorking>Smith</effectWorking>
@@ -120,7 +120,7 @@
             <li>SignalChip</li>
           </thingDefs>
         </filter>
-        <count>1</count>
+        <count>2</count>
       </li>
     </ingredients>
     <fixedIngredientFilter>
@@ -144,7 +144,7 @@
     </products>
     <researchPrerequisite>PowerfocusChipCrafting</researchPrerequisite>
     <skillRequirements>
-      <Crafting>12</Crafting>
+      <Crafting>10</Crafting>
       <Intellectual>16</Intellectual>
     </skillRequirements>
   </RecipeDef>
@@ -152,7 +152,7 @@
   <RecipeDef>
     <defName>Craft_NanostructuringChip</defName>
     <label>craft nano structuring chip</label>
-    <description>Craft a nano structuring chip, normally dropped by the Apocriton.</description>
+    <description>Craft a nano structuring chip, normally dropped by Apocriton.</description>
     <jobString>Crafting a nano structuring chip.</jobString>
     <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
     <effectWorking>Smith</effectWorking>
@@ -194,7 +194,7 @@
             <li>PowerfocusChip</li>
           </thingDefs>
         </filter>
-        <count>1</count>
+        <count>2</count>
       </li>
       <li>
         <filter>
