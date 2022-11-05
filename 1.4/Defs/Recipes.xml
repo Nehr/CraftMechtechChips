@@ -9,7 +9,7 @@
     <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
     <effectWorking>Smith</effectWorking>
     <soundWorking>Recipe_Machining</soundWorking>
-    <workAmount>4800</workAmount>
+    <workAmount>5200</workAmount>
     <workSkill>Intellectual</workSkill>
     <unfinishedThingDef>UnfinishedComponent</unfinishedThingDef>
     <recipeUsers>
@@ -30,7 +30,7 @@
             <li>Plasteel</li>
           </thingDefs>
         </filter>
-        <count>150</count>
+        <count>125</count>
       </li>
       <li>
         <filter>
@@ -70,8 +70,7 @@
     </products>
     <researchPrerequisite>SignalChipCrafting</researchPrerequisite>
     <skillRequirements>
-      <Crafting>8</Crafting>
-      <Intellectual>14</Intellectual>
+      <Crafting>9</Crafting>
     </skillRequirements>
   </RecipeDef>
 
@@ -83,7 +82,7 @@
     <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
     <effectWorking>Smith</effectWorking>
     <soundWorking>Recipe_Machining</soundWorking>
-    <workAmount>5600</workAmount>
+    <workAmount>6000</workAmount>
     <workSkill>Intellectual</workSkill>
     <unfinishedThingDef>UnfinishedComponent</unfinishedThingDef>
     <recipeUsers>
@@ -104,7 +103,7 @@
             <li>Plasteel</li>
           </thingDefs>
         </filter>
-        <count>225</count>
+        <count>200</count>
       </li>
       <li>
         <filter>
@@ -145,7 +144,6 @@
     <researchPrerequisite>PowerfocusChipCrafting</researchPrerequisite>
     <skillRequirements>
       <Crafting>10</Crafting>
-      <Intellectual>16</Intellectual>
     </skillRequirements>
   </RecipeDef>
 
@@ -157,7 +155,7 @@
     <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
     <effectWorking>Smith</effectWorking>
     <soundWorking>Recipe_Machining</soundWorking>
-    <workAmount>6400</workAmount>
+    <workAmount>6800</workAmount>
     <workSkill>Intellectual</workSkill>
     <unfinishedThingDef>UnfinishedComponent</unfinishedThingDef>
     <recipeUsers>
@@ -178,7 +176,7 @@
             <li>Plasteel</li>
           </thingDefs>
         </filter>
-        <count>300</count>
+        <count>250</count>
       </li>
       <li>
         <filter>
@@ -228,8 +226,8 @@
     </products>
     <researchPrerequisite>NanostructuringChipCrafting</researchPrerequisite>
     <skillRequirements>
-      <Crafting>12</Crafting>
-      <Intellectual>18</Intellectual>
+      <Crafting>10</Crafting>
+      <Intellectual>16</Intellectual>
     </skillRequirements>
   </RecipeDef>
 
