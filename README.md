@@ -48,7 +48,9 @@ Requires Fabrication bench.
   - Nano structuring chip: 6800 -> 12000
 - Reduced plasteel costs considering the cost for subcores
   - Powerfocus chip: 200 -> 150
-  - Nano structuring chip: 250 -> 150
+  - Nano structuring chip: 250 -> 200
+
+Crafting a Nano structuring chip from scratch is now an even 1000 plasteel. But requires some additional work and resources with the addition of subcores.
 ### 1.1
   - Decreased overall cost of plasteel by 200 when crafting a Nano structuring chip from scratch
     - Signal chip plasteel cost 150 -> 125
