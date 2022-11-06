@@ -9,7 +9,7 @@
     <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
     <effectWorking>Smith</effectWorking>
     <soundWorking>Recipe_Machining</soundWorking>
-    <workAmount>5200</workAmount>
+    <workAmount>8000</workAmount>
     <workSkill>Intellectual</workSkill>
     <unfinishedThingDef>UnfinishedComponent</unfinishedThingDef>
     <recipeUsers>
@@ -19,10 +19,10 @@
       <li>
         <filter>
           <thingDefs>
-            <li>Steel</li>
+            <li>SubcoreBasic</li>
           </thingDefs>
         </filter>
-        <count>50</count>
+        <count>1</count>
       </li>
       <li>
         <filter>
@@ -35,14 +35,6 @@
       <li>
         <filter>
           <thingDefs>
-            <li>Gold</li>
-          </thingDefs>
-        </filter>
-        <count>1</count>
-      </li>
-      <li>
-        <filter>
-          <thingDefs>
             <li>Uranium</li>
           </thingDefs>
         </filter>
@@ -51,17 +43,15 @@
     </ingredients>
     <fixedIngredientFilter>
       <thingDefs>
-        <li>Steel</li>
+        <li>SubcoreBasic</li>
         <li>Plasteel</li>
-        <li>Gold</li>
         <li>Uranium</li>
       </thingDefs>
     </fixedIngredientFilter>
     <defaultIngredientFilter>
       <thingDefs>
-        <li>Steel</li>
+        <li>SubcoreBasic</li>
         <li>Plasteel</li>
-        <li>Gold</li>
         <li>Uranium</li>
       </thingDefs>
     </defaultIngredientFilter>
@@ -82,7 +72,7 @@
     <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
     <effectWorking>Smith</effectWorking>
     <soundWorking>Recipe_Machining</soundWorking>
-    <workAmount>6000</workAmount>
+    <workAmount>10000</workAmount>
     <workSkill>Intellectual</workSkill>
     <unfinishedThingDef>UnfinishedComponent</unfinishedThingDef>
     <recipeUsers>
@@ -92,26 +82,10 @@
       <li>
         <filter>
           <thingDefs>
-            <li>Steel</li>
+            <li>SubcoreRegular</li>
           </thingDefs>
         </filter>
-        <count>60</count>
-      </li>
-      <li>
-        <filter>
-          <thingDefs>
-            <li>Plasteel</li>
-          </thingDefs>
-        </filter>
-        <count>200</count>
-      </li>
-      <li>
-        <filter>
-          <thingDefs>
-            <li>Gold</li>
-          </thingDefs>
-        </filter>
-        <count>5</count>
+        <count>1</count>
       </li>
       <li>
         <filter>
@@ -121,21 +95,27 @@
         </filter>
         <count>2</count>
       </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Plasteel</li>
+          </thingDefs>
+        </filter>
+        <count>150</count>
+      </li>
     </ingredients>
     <fixedIngredientFilter>
       <thingDefs>
-        <li>Steel</li>
-        <li>Plasteel</li>
-        <li>Gold</li>
+        <li>SubcoreRegular</li>
         <li>SignalChip</li>
+        <li>Plasteel</li>
       </thingDefs>
     </fixedIngredientFilter>
     <defaultIngredientFilter>
       <thingDefs>
-        <li>Steel</li>
-        <li>Plasteel</li>
-        <li>Gold</li>
+        <li>SubcoreRegular</li>
         <li>SignalChip</li>
+        <li>Plasteel</li>
       </thingDefs>
     </defaultIngredientFilter>
     <products>
@@ -155,7 +135,7 @@
     <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
     <effectWorking>Smith</effectWorking>
     <soundWorking>Recipe_Machining</soundWorking>
-    <workAmount>6800</workAmount>
+    <workAmount>12000</workAmount>
     <workSkill>Intellectual</workSkill>
     <unfinishedThingDef>UnfinishedComponent</unfinishedThingDef>
     <recipeUsers>
@@ -165,26 +145,10 @@
       <li>
         <filter>
           <thingDefs>
-            <li>Steel</li>
+            <li>SubcoreHigh</li>
           </thingDefs>
         </filter>
-        <count>80</count>
-      </li>
-      <li>
-        <filter>
-          <thingDefs>
-            <li>Plasteel</li>
-          </thingDefs>
-        </filter>
-        <count>250</count>
-      </li>
-      <li>
-        <filter>
-          <thingDefs>
-            <li>Gold</li>
-          </thingDefs>
-        </filter>
-        <count>10</count>
+        <count>1</count>
       </li>
       <li>
         <filter>
@@ -197,6 +161,14 @@
       <li>
         <filter>
           <thingDefs>
+            <li>Plasteel</li>
+          </thingDefs>
+        </filter>
+        <count>150</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
             <li>Uranium</li>
           </thingDefs>
         </filter>
@@ -205,19 +177,17 @@
     </ingredients>
     <fixedIngredientFilter>
       <thingDefs>
-        <li>Steel</li>
-        <li>Plasteel</li>
-        <li>Gold</li>
+        <li>SubcoreHigh</li>
         <li>PowerfocusChip</li>
+        <li>Plasteel</li>
         <li>Uranium</li>
       </thingDefs>
     </fixedIngredientFilter>
     <defaultIngredientFilter>
       <thingDefs>
-        <li>Steel</li>
-        <li>Plasteel</li>
-        <li>Gold</li>
+        <li>SubcoreHigh</li>
         <li>PowerfocusChip</li>
+        <li>Plasteel</li>
         <li>Uranium</li>
       </thingDefs>
     </defaultIngredientFilter>
