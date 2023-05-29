@@ -21,5 +21,6 @@ This mod is safe to add and remove from your saves at any time.
 Source code and in-game values at: https://github.com/Nehr/CraftMechtechChips</description>
   <loadAfter>
     <li>Ludeon.RimWorld.Biotech</li>
+    <li>sarg.alphamechs</li>
   </loadAfter>
 </ModMetaData>

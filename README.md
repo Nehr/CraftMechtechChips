@@ -7,6 +7,10 @@ RimWorld mod for Biotech to craft high mechtech chips.
 
 Unlock the ability to craft mechtech chips through research after you've studied the chips. Instead of fighting the same bosses over and over again in order to get mechtech chips this mod gives you the option to also craft them.
 
+### AlphaMechs support
+
+Now also supports crafting the new mech tech chips added in AlphaMechs: Hyper-linkage chip (tier 4), Stellar processing chip (tier 5) and Quantum matrix chip (tier 6)! If you're using AlphaMechs make sure this mod is loaded after/placed below AlphaMechs in the mod load order.
+
 ## In-game values
 ### Research time
 Requires Multi analyzer.
@@ -37,7 +41,9 @@ Requires Fabrication bench.
 - Powerfocus chip: 10000
 - Nano structuring chip: 12000
 ## Patch notes
-### 1.2
+### CMC build 1.3
+- Initial support for the mod AlphaMechs (https://github.com/juanosarg/AlphaMechs/tree/main) I may need to tweak some numbers though.
+### CMC build 1.2
 - I find that by end-game my subcore crafting bench and scanners just sit there which is quite boring. So I removed steel and gold cost from crafting the chips and replaced it with subcores to utilize them more. So the chips need one subcore from the respective tier. The actual cost for the chips are about the same, but it requires less different stuff but more streamlined ingredients.
   - Signal chip: Basic subcore
   - Powerfocus chip: Standard subcore
@@ -51,7 +57,7 @@ Requires Fabrication bench.
   - Nano structuring chip: 250 -> 200
 
 Crafting a Nano structuring chip from scratch is now an even 1000 plasteel. But requires some additional work and resources with the addition of subcores.
-### 1.1
+### CMC build 1.1
   - Decreased overall cost of plasteel by 200 when crafting a Nano structuring chip from scratch
     - Signal chip plasteel cost 150 -> 125
     - Powerfocus chip plasteel cost 225 -> 200
