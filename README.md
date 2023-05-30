@@ -21,17 +21,18 @@ Requires Multi analyzer.
 Requires Fabrication bench.
 #### Signal chip
 - Basic subcore (1)
-- Plasteel (125)
-- Uranium (5)
+- Advanced component (6)
+- Plasteel (50)
 #### Powerfocus chip
-- Standard subcore (1)
 - Signal chip (2)
-- Plasteel (150)
+- Standard subcore (1)
+- Advanced component (6)
+- Plasteel (75)
 #### Nano structuring chip
-- High subcore (1)
 - Powerfocus chip (2)
-- Plasteel (150)
-- Uranium (10)
+- High subcore (1)
+- Plasteel (120)
+- Advanced component (8)
 ### Skills needed to craft
 - Signal chip: 9 crafting (can be crafted by fabricators)
 - Powerfocus chip: 10 crafting (can be crafted by fabricators)
@@ -40,8 +41,48 @@ Requires Fabrication bench.
 - Signal chip: 8000
 - Powerfocus chip: 10000
 - Nano structuring chip: 12000
+## In-game values for AlphaMechs
+### Research time
+Requires Multi analyzer.
+- Hyper-linkage chip: 6000
+- Stellar processing chip: 6000
+- Quantum matrix chip: 6000
+### Crafting costs
+Requires Fabrication bench.
+#### Hyper-linkage chip
+- Nano structuring Chip (2)
+- High subcore (1)
+- Advanced component (8)
+- Uranium (10)
+#### Stellar processing chip
+- Hyper-linkage chip (2)
+- High subcore (2)
+- Advanced component (12)
+- Uranium (10)
+#### Quantum matrix chip
+- Stellar processing chip (2)
+- High subcore (4)
+- Advanced component (12)
+- Uranium (10)
+### Skills needed to craft (must be crafted by a colonist)
+- Hyper-linkage chip: 10 crafting, 18 intellectual
+- Stellar processing chip: 12 crafting, 18 intellectual
+- Quantum matrix chip: 12 crafting, 20 intellectual
+### Amount of work (time)
+- Hyper-linkage chip: 14000
+- Stellar processing chip: 16000
+- Quantum matrix chip: 18000
 ## Patch notes
 ### CMC build 1.3
+- Changed some costs for crafting the chips, so it needs less raw resources and are utilizing advanced components instead. The total costs are slightly cheaper for the first two chips, slightly more expensive for the third one - but the raw amount of plasteel needed are the same or less. 
+- New raw plasteel costs:
+  - Signal chip: 125 -> 110
+  - Powerfocus chip: 150 -> 135
+  - Nano structuring chip: no change
+- New raw gold costs:
+  - Signal chip: 0 -> 18
+  - Powerfocus chip: 0 -> 18
+  - Nano structuring chip: 0 -> 24
 - Initial support for the mod AlphaMechs (https://github.com/juanosarg/AlphaMechs/tree/main) I may need to tweak some numbers though.
 ### CMC build 1.2
 - I find that by end-game my subcore crafting bench and scanners just sit there which is quite boring. So I removed steel and gold cost from crafting the chips and replaced it with subcores to utilize them more. So the chips need one subcore from the respective tier. The actual cost for the chips are about the same, but it requires less different stuff but more streamlined ingredients.

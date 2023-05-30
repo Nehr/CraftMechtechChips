@@ -30,29 +30,29 @@
             <li>Plasteel</li>
           </thingDefs>
         </filter>
-        <count>125</count>
+        <count>50</count>
       </li>
       <li>
         <filter>
           <thingDefs>
-            <li>Uranium</li>
+            <li>ComponentSpacer</li>
           </thingDefs>
         </filter>
-        <count>5</count>
+        <count>6</count>
       </li>
     </ingredients>
     <fixedIngredientFilter>
       <thingDefs>
+        <li>ComponentSpacer</li>
         <li>SubcoreBasic</li>
         <li>Plasteel</li>
-        <li>Uranium</li>
       </thingDefs>
     </fixedIngredientFilter>
     <defaultIngredientFilter>
       <thingDefs>
+        <li>ComponentSpacer</li>
         <li>SubcoreBasic</li>
         <li>Plasteel</li>
-        <li>Uranium</li>
       </thingDefs>
     </defaultIngredientFilter>
     <products>
@@ -98,10 +98,18 @@
       <li>
         <filter>
           <thingDefs>
+            <li>ComponentSpacer</li>
+          </thingDefs>
+        </filter>
+        <count>6</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
             <li>Plasteel</li>
           </thingDefs>
         </filter>
-        <count>150</count>
+        <count>75</count>
       </li>
     </ingredients>
     <fixedIngredientFilter>
@@ -109,6 +117,7 @@
         <li>SubcoreRegular</li>
         <li>SignalChip</li>
         <li>Plasteel</li>
+        <li>ComponentSpacer</li>
       </thingDefs>
     </fixedIngredientFilter>
     <defaultIngredientFilter>
@@ -116,6 +125,7 @@
         <li>SubcoreRegular</li>
         <li>SignalChip</li>
         <li>Plasteel</li>
+        <li>ComponentSpacer</li>
       </thingDefs>
     </defaultIngredientFilter>
     <products>
@@ -164,7 +174,15 @@
             <li>Plasteel</li>
           </thingDefs>
         </filter>
-        <count>200</count>
+        <count>120</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>ComponentSpacer</li>
+          </thingDefs>
+        </filter>
+        <count>8</count>
       </li>
       <li>
         <filter>
@@ -180,6 +198,7 @@
         <li>SubcoreHigh</li>
         <li>PowerfocusChip</li>
         <li>Plasteel</li>
+        <li>ComponentSpacer</li>
         <li>Uranium</li>
       </thingDefs>
     </fixedIngredientFilter>
@@ -188,6 +207,7 @@
         <li>SubcoreHigh</li>
         <li>PowerfocusChip</li>
         <li>Plasteel</li>
+        <li>ComponentSpacer</li>
         <li>Uranium</li>
       </thingDefs>
     </defaultIngredientFilter>

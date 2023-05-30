@@ -18,6 +18,8 @@ Unlock the ability to craft mechtech chips through research after you've studied
 
 This mod is safe to add and remove from your saves at any time.
 
+Now supports the AlphaMechs mod! (Make sure this mod is loaded after AlphaMechs.)
+
 Source code and in-game values at: https://github.com/Nehr/CraftMechtechChips</description>
   <loadAfter>
     <li>Ludeon.RimWorld.Biotech</li>

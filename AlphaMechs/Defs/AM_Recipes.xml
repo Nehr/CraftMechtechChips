@@ -9,7 +9,7 @@
     <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
     <effectWorking>Smith</effectWorking>
     <soundWorking>Recipe_Machining</soundWorking>
-    <workAmount>6000</workAmount>
+    <workAmount>14000</workAmount>
     <workSkill>Intellectual</workSkill>
     <unfinishedThingDef>UnfinishedComponent</unfinishedThingDef>
     <recipeUsers>
@@ -19,18 +19,18 @@
       <li>
         <filter>
           <thingDefs>
-            <li>Plasteel</li>
+            <li>ComponentSpacer</li>
           </thingDefs>
         </filter>
-        <count>300</count>
+        <count>8</count>
       </li>
       <li>
         <filter>
           <thingDefs>
-            <li>Gold</li>
+            <li>SubcoreHigh</li>
           </thingDefs>
         </filter>
-        <count>30</count>
+        <count>1</count>
       </li>
       <li>
         <filter>
@@ -38,7 +38,7 @@
             <li>NanostructuringChip</li>
           </thingDefs>
         </filter>
-        <count>1</count>
+        <count>2</count>
       </li>
       <li>
         <filter>
@@ -51,16 +51,16 @@
     </ingredients>
     <fixedIngredientFilter>
       <thingDefs>
-        <li>Plasteel</li>
-        <li>Gold</li>
+        <li>ComponentSpacer</li>
+        <li>SubcoreHigh</li>
         <li>NanostructuringChip</li>
         <li>Uranium</li>
       </thingDefs>
     </fixedIngredientFilter>
     <defaultIngredientFilter>
       <thingDefs>
-        <li>Plasteel</li>
-        <li>Gold</li>
+        <li>ComponentSpacer</li>
+        <li>SubcoreHigh</li>
         <li>NanostructuringChip</li>
         <li>Uranium</li>
       </thingDefs>
@@ -68,9 +68,9 @@
     <products>
       <AM_HyperLinkageChip>1</AM_HyperLinkageChip>
     </products>
-    <researchPrerequisite>NanostructuringChipCrafting</researchPrerequisite>
+    <researchPrerequisite>AM_HyperLinkageChipCrafting</researchPrerequisite>
     <skillRequirements>
-      <Crafting>12</Crafting>
+      <Crafting>10</Crafting>
       <Intellectual>18</Intellectual>
     </skillRequirements>
   </RecipeDef>
@@ -83,7 +83,7 @@
     <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
     <effectWorking>Smith</effectWorking>
     <soundWorking>Recipe_Machining</soundWorking>
-    <workAmount>6000</workAmount>
+    <workAmount>16000</workAmount>
     <workSkill>Intellectual</workSkill>
     <unfinishedThingDef>UnfinishedComponent</unfinishedThingDef>
     <recipeUsers>
@@ -93,18 +93,18 @@
       <li>
         <filter>
           <thingDefs>
-            <li>Plasteel</li>
+            <li>ComponentSpacer</li>
           </thingDefs>
         </filter>
-        <count>300</count>
+        <count>12</count>
       </li>
       <li>
         <filter>
           <thingDefs>
-            <li>Gold</li>
+            <li>SubcoreHigh</li>
           </thingDefs>
         </filter>
-        <count>30</count>
+        <count>4</count>
       </li>
       <li>
         <filter>
@@ -112,7 +112,7 @@
             <li>AM_HyperLinkageChip</li>
           </thingDefs>
         </filter>
-        <count>1</count>
+        <count>2</count>
       </li>
       <li>
         <filter>
@@ -125,16 +125,16 @@
     </ingredients>
     <fixedIngredientFilter>
       <thingDefs>
-        <li>Plasteel</li>
-        <li>Gold</li>
+        <li>ComponentSpacer</li>
+        <li>SubcoreHigh</li>
         <li>AM_HyperLinkageChip</li>
         <li>Uranium</li>
       </thingDefs>
     </fixedIngredientFilter>
     <defaultIngredientFilter>
       <thingDefs>
-        <li>Plasteel</li>
-        <li>Gold</li>
+        <li>ComponentSpacer</li>
+        <li>SubcoreHigh</li>
         <li>AM_HyperLinkageChip</li>
         <li>Uranium</li>
       </thingDefs>
@@ -145,7 +145,7 @@
     <researchPrerequisite>AM_StellarProcessingChipCrafting</researchPrerequisite>
     <skillRequirements>
       <Crafting>12</Crafting>
-      <Intellectual>19</Intellectual>
+      <Intellectual>18</Intellectual>
     </skillRequirements>
   </RecipeDef>
 
@@ -157,7 +157,7 @@
     <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
     <effectWorking>Smith</effectWorking>
     <soundWorking>Recipe_Machining</soundWorking>
-    <workAmount>6000</workAmount>
+    <workAmount>18000</workAmount>
     <workSkill>Intellectual</workSkill>
     <unfinishedThingDef>UnfinishedComponent</unfinishedThingDef>
     <recipeUsers>
@@ -167,18 +167,18 @@
       <li>
         <filter>
           <thingDefs>
-            <li>Plasteel</li>
+            <li>ComponentSpacer</li>
           </thingDefs>
         </filter>
-        <count>300</count>
+        <count>16</count>
       </li>
       <li>
         <filter>
           <thingDefs>
-            <li>Gold</li>
+            <li>SubcoreHigh</li>
           </thingDefs>
         </filter>
-        <count>30</count>
+        <count>6</count>
       </li>
       <li>
         <filter>
@@ -186,7 +186,7 @@
             <li>AM_StellarProcessingChip</li>
           </thingDefs>
         </filter>
-        <count>1</count>
+        <count>2</count>
       </li>
       <li>
         <filter>
@@ -199,16 +199,16 @@
     </ingredients>
     <fixedIngredientFilter>
       <thingDefs>
-        <li>Plasteel</li>
-        <li>Gold</li>
+        <li>ComponentSpacer</li>
+        <li>SubcoreHigh</li>
         <li>AM_StellarProcessingChip</li>
         <li>Uranium</li>
       </thingDefs>
     </fixedIngredientFilter>
     <defaultIngredientFilter>
       <thingDefs>
-        <li>Plasteel</li>
-        <li>Gold</li>
+        <li>ComponentSpacer</li>
+        <li>SubcoreHigh</li>
         <li>AM_StellarProcessingChip</li>
         <li>Uranium</li>
       </thingDefs>
@@ -219,7 +219,7 @@
     <researchPrerequisite>AM_QuantumMatrixChipCrafting</researchPrerequisite>
     <skillRequirements>
       <Crafting>12</Crafting>
-      <Intellectual>19</Intellectual>
+      <Intellectual>20</Intellectual>
     </skillRequirements>
   </RecipeDef>
 
