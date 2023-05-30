@@ -83,7 +83,10 @@ Requires Fabrication bench.
   - Signal chip: 0 -> 18
   - Powerfocus chip: 0 -> 18
   - Nano structuring chip: 0 -> 24
+- Nano structuring chip crafting research time lowered slightly: 6000 -> 5000
+- Added a 'Mechtech crafting' tab in the research menu
 - Initial support for the mod AlphaMechs (https://github.com/juanosarg/AlphaMechs/tree/main) I may need to tweak some numbers though.
+- Added Mechlink crafting. It's not cheap though, it's pretty expensive as it's supposed to be an end-game thing.
 ### CMC build 1.2
 - I find that by end-game my subcore crafting bench and scanners just sit there which is quite boring. So I removed steel and gold cost from crafting the chips and replaced it with subcores to utilize them more. So the chips need one subcore from the respective tier. The actual cost for the chips are about the same, but it requires less different stuff but more streamlined ingredients.
   - Signal chip: Basic subcore

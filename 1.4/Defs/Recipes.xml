@@ -1,5 +1,79 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
+
+  <RecipeDef>
+    <defName>Craft_Mechlink</defName>
+    <label>craft mechlink</label>
+    <description>Craft a mechlink, a bionic implant that allows direct control of mechanoids.</description>
+    <jobString>Crafting a mechlink.</jobString>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <effectWorking>Smith</effectWorking>
+    <soundWorking>Recipe_Machining</soundWorking>
+    <workAmount>18000</workAmount>
+    <workSkill>Intellectual</workSkill>
+    <unfinishedThingDef>UnfinishedComponent</unfinishedThingDef>
+    <recipeUsers>
+      <li>FabricationBench</li>
+    </recipeUsers>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>SubcoreHigh</li>
+          </thingDefs>
+        </filter>
+        <count>2</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Apparel_IntegratorHeadset</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>AIPersonaCore</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>ComponentSpacer</li>
+          </thingDefs>
+        </filter>
+        <count>16</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>SubcoreHigh</li>
+        <li>Apparel_IntegratorHeadset</li>
+        <li>ComponentSpacer</li>
+        <li>AIPersonaCore</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <defaultIngredientFilter>
+      <thingDefs>
+        <li>SubcoreHigh</li>
+        <li>Apparel_IntegratorHeadset</li>
+        <li>ComponentSpacer</li>
+        <li>AIPersonaCore</li>
+      </thingDefs>
+    </defaultIngredientFilter>
+    <products>
+      <Mechlink>1</Mechlink>
+    </products>
+    <researchPrerequisite>MechlinkCrafting</researchPrerequisite>
+    <skillRequirements>
+      <Crafting>10</Crafting>
+      <Intellectual>18</Intellectual>
+    </skillRequirements>
+  </RecipeDef>
   
 	<RecipeDef>
     <defName>Craft_SignalChip</defName>

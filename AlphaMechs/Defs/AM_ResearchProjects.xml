@@ -13,15 +13,15 @@
     
     <prerequisites>
       <li>UltraMechtech</li>
-      <li>PowerfocusChipCrafting</li>
+      <li>NanostructuringChipCrafting</li>
     </prerequisites>
     <requiredStudied>
       <li>AM_HyperLinkageChip</li>
     </requiredStudied>
 
-    <tab>AM_AlphaMechs</tab>
-    <researchViewX>1.00</researchViewX>
-		<researchViewY>2.00</researchViewY>
+    <tab>nehr_CraftMechtechChips</tab>
+    <researchViewX>3.00</researchViewX>
+    <researchViewY>0.00</researchViewY>
   </ResearchProjectDef>
 
   <ResearchProjectDef ParentName="MechtechBase">
@@ -41,9 +41,9 @@
       <li>AM_StellarProcessingChip</li>
     </requiredStudied>
 
-    <tab>AM_AlphaMechs</tab>
-    <researchViewX>1.80</researchViewX>
-		<researchViewY>2.00</researchViewY>
+    <tab>nehr_CraftMechtechChips</tab>
+    <researchViewX>4.00</researchViewX>
+    <researchViewY>0.00</researchViewY>
   </ResearchProjectDef>
 
   <ResearchProjectDef ParentName="MechtechBase">
@@ -63,9 +63,9 @@
       <li>AM_QuantumMatrixChip</li>
     </requiredStudied>
 
-    <tab>AM_AlphaMechs</tab>
-    <researchViewX>2.60</researchViewX>
-		<researchViewY>2.00</researchViewY>
+    <tab>nehr_CraftMechtechChips</tab>
+    <researchViewX>5.00</researchViewX>
+    <researchViewY>0.00</researchViewY>
   </ResearchProjectDef>
 
 </Defs>
