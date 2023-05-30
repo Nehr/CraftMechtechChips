@@ -14,9 +14,9 @@ Now also supports crafting the new mech tech chips added in AlphaMechs: Hyper-li
 ## In-game values
 ### Research time
 Requires Multi analyzer.
-- Signal chip: 2000
+- Signal chip: 3000
 - Powerfocus chip: 4000
-- Nanostructuring chip: 6000
+- Nanostructuring chip: 5000
 ### Crafting costs
 Requires Fabrication bench.
 #### Signal chip
@@ -84,6 +84,7 @@ Requires Fabrication bench.
   - Powerfocus chip: 0 -> 18
   - Nano structuring chip: 0 -> 24
 - Nano structuring chip crafting research time lowered slightly: 6000 -> 5000
+- Signal chip crafting research time increased slightly: 2000 -> 3000
 - Added a 'Mechtech crafting' tab in the research menu
 - Initial support for the mod AlphaMechs (https://github.com/juanosarg/AlphaMechs/tree/main) I may need to tweak some numbers though.
 - Added Mechlink crafting. It's not cheap though, it's pretty expensive as it's supposed to be an end-game thing.
