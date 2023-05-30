@@ -18,7 +18,10 @@ Unlock the ability to craft mechtech chips through research after you've studied
 
 This mod is safe to add and remove from your saves at any time.
 
-Now supports the AlphaMechs mod! (Make sure this mod is loaded after AlphaMechs.)
+Now supports the AlphaMechs mod and crafting of Hyper-linkage chips, Stellar processing chips and Quantum matrix chips!
+(Make sure this mod is loaded after AlphaMechs if you are using both.)
+
+Also adds a research project for Mechlink crafting.
 
 Source code and in-game values at: https://github.com/Nehr/CraftMechtechChips</description>
   <loadAfter>
