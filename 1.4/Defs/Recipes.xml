@@ -1,5 +1,79 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
+
+  <RecipeDef>
+    <defName>Craft_Mechlink</defName>
+    <label>craft mechlink</label>
+    <description>Craft a mechlink, a bionic implant that allows direct control of mechanoids.</description>
+    <jobString>Crafting a mechlink.</jobString>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <effectWorking>Smith</effectWorking>
+    <soundWorking>Recipe_Machining</soundWorking>
+    <workAmount>18000</workAmount>
+    <workSkill>Intellectual</workSkill>
+    <unfinishedThingDef>UnfinishedComponent</unfinishedThingDef>
+    <recipeUsers>
+      <li>FabricationBench</li>
+    </recipeUsers>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>SubcoreHigh</li>
+          </thingDefs>
+        </filter>
+        <count>2</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Apparel_IntegratorHeadset</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>AIPersonaCore</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>ComponentSpacer</li>
+          </thingDefs>
+        </filter>
+        <count>16</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>SubcoreHigh</li>
+        <li>Apparel_IntegratorHeadset</li>
+        <li>ComponentSpacer</li>
+        <li>AIPersonaCore</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <defaultIngredientFilter>
+      <thingDefs>
+        <li>SubcoreHigh</li>
+        <li>Apparel_IntegratorHeadset</li>
+        <li>ComponentSpacer</li>
+        <li>AIPersonaCore</li>
+      </thingDefs>
+    </defaultIngredientFilter>
+    <products>
+      <Mechlink>1</Mechlink>
+    </products>
+    <researchPrerequisite>MechlinkCrafting</researchPrerequisite>
+    <skillRequirements>
+      <Crafting>10</Crafting>
+      <Intellectual>18</Intellectual>
+    </skillRequirements>
+  </RecipeDef>
   
 	<RecipeDef>
     <defName>Craft_SignalChip</defName>
@@ -30,29 +104,29 @@
             <li>Plasteel</li>
           </thingDefs>
         </filter>
-        <count>125</count>
+        <count>50</count>
       </li>
       <li>
         <filter>
           <thingDefs>
-            <li>Uranium</li>
+            <li>ComponentSpacer</li>
           </thingDefs>
         </filter>
-        <count>5</count>
+        <count>6</count>
       </li>
     </ingredients>
     <fixedIngredientFilter>
       <thingDefs>
+        <li>ComponentSpacer</li>
         <li>SubcoreBasic</li>
         <li>Plasteel</li>
-        <li>Uranium</li>
       </thingDefs>
     </fixedIngredientFilter>
     <defaultIngredientFilter>
       <thingDefs>
+        <li>ComponentSpacer</li>
         <li>SubcoreBasic</li>
         <li>Plasteel</li>
-        <li>Uranium</li>
       </thingDefs>
     </defaultIngredientFilter>
     <products>
@@ -98,10 +172,18 @@
       <li>
         <filter>
           <thingDefs>
+            <li>ComponentSpacer</li>
+          </thingDefs>
+        </filter>
+        <count>6</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
             <li>Plasteel</li>
           </thingDefs>
         </filter>
-        <count>150</count>
+        <count>75</count>
       </li>
     </ingredients>
     <fixedIngredientFilter>
@@ -109,6 +191,7 @@
         <li>SubcoreRegular</li>
         <li>SignalChip</li>
         <li>Plasteel</li>
+        <li>ComponentSpacer</li>
       </thingDefs>
     </fixedIngredientFilter>
     <defaultIngredientFilter>
@@ -116,6 +199,7 @@
         <li>SubcoreRegular</li>
         <li>SignalChip</li>
         <li>Plasteel</li>
+        <li>ComponentSpacer</li>
       </thingDefs>
     </defaultIngredientFilter>
     <products>
@@ -164,7 +248,15 @@
             <li>Plasteel</li>
           </thingDefs>
         </filter>
-        <count>200</count>
+        <count>120</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>ComponentSpacer</li>
+          </thingDefs>
+        </filter>
+        <count>8</count>
       </li>
       <li>
         <filter>
@@ -180,6 +272,7 @@
         <li>SubcoreHigh</li>
         <li>PowerfocusChip</li>
         <li>Plasteel</li>
+        <li>ComponentSpacer</li>
         <li>Uranium</li>
       </thingDefs>
     </fixedIngredientFilter>
@@ -188,6 +281,7 @@
         <li>SubcoreHigh</li>
         <li>PowerfocusChip</li>
         <li>Plasteel</li>
+        <li>ComponentSpacer</li>
         <li>Uranium</li>
       </thingDefs>
     </defaultIngredientFilter>

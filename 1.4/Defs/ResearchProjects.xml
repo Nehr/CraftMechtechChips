@@ -5,18 +5,23 @@
     <defName>SignalChipCrafting</defName>
     <label>signal chip crafting</label>
     <description>The technology needed for your mechanitor to craft mechanoid-band synchronization micro-organs, also known as signal chips.</description>
-    <baseCost>2000</baseCost>
-    <techprintMarketValue>2000</techprintMarketValue>
+    
+    <baseCost>3000</baseCost>
+    <techprintMarketValue>3000</techprintMarketValue>
+    
     <requiredResearchFacilities>
       <li>MultiAnalyzer</li>
     </requiredResearchFacilities>
     <prerequisites>
       <li>StandardMechtech</li>
+      <li>Fabrication</li>
     </prerequisites>
     <requiredStudied>
       <li>SignalChip</li>
     </requiredStudied>
-    <researchViewX>16.00</researchViewX>
+
+    <tab>nehr_CraftMechtechChips</tab>
+    <researchViewX>0.00</researchViewX>
     <researchViewY>0.00</researchViewY>
   </ResearchProjectDef>
 
@@ -24,8 +29,10 @@
     <defName>PowerfocusChipCrafting</defName>
     <label>powerfocus chip crafting</label>
     <description>The technology needed for your mechanitor to craft energy-focusing mechanoid micro-organs, also known as powerfocus chips.</description>
+    
     <baseCost>4000</baseCost>
     <techprintMarketValue>4000</techprintMarketValue>
+
     <requiredResearchFacilities>
       <li>MultiAnalyzer</li>
     </requiredResearchFacilities>
@@ -36,16 +43,21 @@
     <requiredStudied>
       <li>PowerfocusChip</li>
     </requiredStudied>
-    <researchViewX>16.80</researchViewX>
-    <researchViewY>0.10</researchViewY>
+
+    <tab>nehr_CraftMechtechChips</tab>
+    <researchViewX>1.00</researchViewX>
+    <researchViewY>0.00</researchViewY>
   </ResearchProjectDef>
 
   <ResearchProjectDef ParentName="MechtechBase">
     <defName>NanostructuringChipCrafting</defName>
     <label>nano structuring chip crafting</label>
     <description>The technology needed for your mechanitor to craft molecular-restructing mechanoid micro-organs, also known as nano structuring chips.</description>
-    <baseCost>6000</baseCost>
+    
+    <techLevel>Ultra</techLevel>
+    <baseCost>5000</baseCost>
     <techprintMarketValue>6000</techprintMarketValue>
+    
     <requiredResearchFacilities>
       <li>MultiAnalyzer</li>
     </requiredResearchFacilities>
@@ -56,8 +68,35 @@
     <requiredStudied>
       <li>NanostructuringChip</li>
     </requiredStudied>
-    <researchViewX>17.60</researchViewX>
-    <researchViewY>0.20</researchViewY>
+
+    <tab>nehr_CraftMechtechChips</tab>
+    <researchViewX>2.00</researchViewX>
+    <researchViewY>0.00</researchViewY>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef ParentName="MechtechBase">
+    <defName>MechlinkCrafting</defName>
+    <label>mechlink crafting</label>
+    <description>The technology needed for your mechanitor to craft a bionic implant that allows direct control of mechanoids.</description>
+    
+    <techLevel>Ultra</techLevel>
+    <baseCost>6000</baseCost>
+    <techprintMarketValue>8000</techprintMarketValue>
+    
+    <requiredResearchFacilities>
+      <li>MultiAnalyzer</li>
+    </requiredResearchFacilities>
+    <prerequisites>
+      <li>UltraMechtech</li>
+      <li>AdvancedFabrication</li>
+    </prerequisites>
+    <requiredStudied>
+      <li>NanostructuringChip</li>
+    </requiredStudied>
+    
+    <tab>nehr_CraftMechtechChips</tab>
+    <researchViewX>0.00</researchViewX>
+    <researchViewY>1.50</researchViewY>
   </ResearchProjectDef>
 
 </Defs>
