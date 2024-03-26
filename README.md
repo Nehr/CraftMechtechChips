@@ -73,6 +73,11 @@ Requires Fabrication bench.
 - Stellar processing chip: 16000
 - Quantum matrix chip: 18000
 ## Patch notes
+### CMC build 1.4
+- Updated to support Rimworld version 1.5
+- Fixed ResearchProjects defs renamed from "studied" to "analyzed"
+- Removed MultiAnalyzer from requirements on signal chip crafting research
+- Updated preview image
 ### CMC build 1.3
 - Changed some costs for crafting the chips, so it needs less raw resources and are utilizing advanced components instead. The total costs are slightly cheaper for the first two chips, slightly more expensive for the third one - but the raw amount of plasteel needed are the same or less. 
 - New raw plasteel costs:

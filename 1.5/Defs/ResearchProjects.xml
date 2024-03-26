@@ -8,14 +8,14 @@
     
     <baseCost>3000</baseCost>
     <techprintMarketValue>3000</techprintMarketValue>
-    
+
     <prerequisites>
       <li>StandardMechtech</li>
       <li>Fabrication</li>
     </prerequisites>
-    <requiredStudied>
+    <requiredAnalyzed>
       <li>SignalChip</li>
-    </requiredStudied>
+    </requiredAnalyzed>
 
     <tab>nehr_CraftMechtechChips</tab>
     <researchViewX>0.00</researchViewX>
@@ -37,9 +37,9 @@
       <li>HighMechtech</li>
       <li>SignalChipCrafting</li>
     </prerequisites>
-    <requiredStudied>
+    <requiredAnalyzed>
       <li>PowerfocusChip</li>
-    </requiredStudied>
+    </requiredAnalyzed>
 
     <tab>nehr_CraftMechtechChips</tab>
     <researchViewX>1.00</researchViewX>
@@ -62,9 +62,9 @@
       <li>UltraMechtech</li>
       <li>PowerfocusChipCrafting</li>
     </prerequisites>
-    <requiredStudied>
+    <requiredAnalyzed>
       <li>NanostructuringChip</li>
-    </requiredStudied>
+    </requiredAnalyzed>
 
     <tab>nehr_CraftMechtechChips</tab>
     <researchViewX>2.00</researchViewX>
@@ -87,9 +87,9 @@
       <li>UltraMechtech</li>
       <li>AdvancedFabrication</li>
     </prerequisites>
-    <requiredStudied>
+    <requiredAnalyzed>
       <li>NanostructuringChip</li>
-    </requiredStudied>
+    </requiredAnalyzed>
     
     <tab>nehr_CraftMechtechChips</tab>
     <researchViewX>0.00</researchViewX>
