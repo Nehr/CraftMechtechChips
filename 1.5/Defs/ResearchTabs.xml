@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	
+	<ResearchTabDef>
+		<defName>nehr_CraftMechtechChips</defName>
+		<label>Mechtech crafting</label>
+		<generalTitle>Mechtech crafting research projects</generalTitle>
+    <generalDescription>Unlock the ability to craft your own mechtech chips, enhancing your technological prowess and self-sufficiency.</generalDescription>
+	</ResearchTabDef>
+
+</Defs>

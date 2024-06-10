@@ -1,15 +1,41 @@
 # CraftMechtechChips
 RimWorld mod for Biotech to craft high mechtech chips.
 
-## About
+## ![About](images/rimworld-about.png)
 
-### Craft Signal chips, Powerfocus chips and Nano structuring chips.
+Craft Signal chips, Powerfocus chips and Nano structuring chips.
 
-Unlock the ability to craft mechtech chips through research after you've studied the chips. Instead of fighting the same bosses over and over again in order to get mechtech chips this mod gives you the option to also craft them.
+Unlock the power to craft mechtech chips through research once you've analyzed the chips. Instead of repeatedly battling the same bosses to obtain mechtech chips, this mod offers you the alternative to craft them yourself.
 
-### AlphaMechs support
+Additionally, this mod introduces a research project for Mechlink crafting.
 
-Now also supports crafting the new mech tech chips added in AlphaMechs: Hyper-linkage chip (tier 4), Stellar processing chip (tier 5) and Quantum matrix chip (tier 6)! If you're using AlphaMechs make sure this mod is loaded after/placed below AlphaMechs in the mod load order.
+This mod is safe to add or remove from your saves at any time (though it's best not to remove it during the crafting process).
+
+This mod is tailored for end-game progression, offering experienced players an alternative pathway to enhance their technological capabilities. It aims to offer a supplementary method for advancing within the game.
+
+### ![How to](images/rimworld-howto.png)
+
+![How to](images/rw-mod-strip.png)
+
+1. Analyze the chip.
+2. Unlock the crafting ability through research in the crafting tab.
+3. Fabricate the mechtech chip using a fabricator.
+
+### ![Features](images/rimworld-features.png)
+
+Additionally, this mod introduces a research project for Mechlink crafting.
+
+The ability to craft
+	- Signal chip
+	- Powerfocus chip
+	- Nano chip
+	- Mechlink
+
+### ![Compatibility](images/rimworld-compatibility.png)
+
+#### AlphaMechs support
+
+Now compatible with the AlphaMechs mod, allowing you to craft Hyper-linkage chips, Stellar processing chips, and Quantum matrix chips! (Ensure this mod is loaded after AlphaMechs for proper functionality.)
 
 ## In-game values
 ### Research time
@@ -73,6 +99,10 @@ Requires Fabrication bench.
 - Stellar processing chip: 16000
 - Quantum matrix chip: 18000
 ## Patch notes
+### CMC build 1.5
+- Added description and title to the research tab
+- Added steam page images
+- Updated git readme
 ### CMC build 1.4
 - Updated to support Rimworld version 1.5
 - Fixed ResearchProjects defs renamed from "studied" to "analyzed"
