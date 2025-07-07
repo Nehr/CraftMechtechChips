@@ -1,0 +1,26 @@
+<Defs>
+	<ResearchProjectDef ParentName="MechtechBase">
+		<defName>PowerfocusChipCrafting</defName>
+		<label>powerfocus chip crafting</label>
+		<description>The technology needed for your mechanitor to craft energy-focusing mechanoid
+			micro-organs, also known as powerfocus chips.</description>
+
+		<baseCost>2500</baseCost>
+		<techprintMarketValue>4000</techprintMarketValue>
+
+		<requiredResearchFacilities>
+			<li>MultiAnalyzer</li>
+		</requiredResearchFacilities>
+		<prerequisites>
+			<li>HighMechtech</li>
+			<li>SignalChipCrafting</li>
+		</prerequisites>
+		<requiredAnalyzed>
+			<li>PowerfocusChip</li>
+		</requiredAnalyzed>
+
+		<tab>nehr_CraftMechtechChips</tab>
+		<researchViewX>1.00</researchViewX>
+		<researchViewY>0.00</researchViewY>
+	</ResearchProjectDef>
+</Defs>

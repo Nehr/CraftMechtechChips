@@ -99,6 +99,31 @@ Requires Fabrication bench.
 - Stellar processing chip: 16000
 - Quantum matrix chip: 18000
 ## Patch notes
+### CMC build 1.6
+- Updated for Rimworld 1.6
+- Restructured folders and stuff
+- Lowered Nano structuring chip crafting intellect requirement from 16 to 14
+- Lowered costs again, the amount of raw plasteel needed was a bit too high when crafting from scratch. I still want this to be a part of the end game and not feel like you're cheating, but considering we're getting more things that will need plasteel in Odyssey I think lowering the costs a bit is fair. New raw plasteel costs:
+  - Signal chip: 110 -> 70
+  - Powerfocus chip: 135 -> 100
+  - Nano structuring chip: 200 -> 130
+- Cut research times a bit for each:
+  - Signal chip: 3000 -> 2000
+  - Powerfocus chip: 4000 -> 2500
+  - Nano structuring chip: 5000 -> 3000
+- Some small changes and tweaks for crafting the AlphaMechs chips:
+  - Cut all research times by half (from 6000 to 3000 for each)
+  - Lowered Hyper-linkage chip crafting crafting requirement from 12 to 10
+  - Lowered Hyper-linkage chip crafting intellect requirement from 18 to 15
+  - Lowered Stellar processing chip crafting intellect requirement from 18 to 16
+  - Lowered Stellar processing chip crafting cost:
+    - Advanced components: 12 -> 8
+    - High subcore: 4 -> 2
+  - Lowered Quantum matrix chip crafting crafting requirement from 12 to 10
+  - Lowered Quantum matrix chip crafting intellect requirement from 20 to 18
+    - Lowered Quantum matrix chip crafting cost:
+      - Advanced components: 16 -> 10
+      - High subcore: 6 -> 3
 ### CMC build 1.5
 - Added description and title to the research tab
 - Added steam page images
