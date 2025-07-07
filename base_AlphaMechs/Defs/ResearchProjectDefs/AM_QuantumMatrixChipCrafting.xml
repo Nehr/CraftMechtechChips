@@ -1,0 +1,24 @@
+<Defs>
+	<ResearchProjectDef ParentName="MechtechBase">
+		<defName>AM_QuantumMatrixChipCrafting</defName>
+		<label>quantum matrix chip crafting</label>
+		<description>The technology needed for your mechanitor to craft quantum-restructing mechanoid
+			micro-organs, also known as quantum matrix chips.</description>
+		<baseCost>3000</baseCost>
+		<techprintMarketValue>6000</techprintMarketValue>
+		<requiredResearchFacilities>
+			<li>MultiAnalyzer</li>
+		</requiredResearchFacilities>
+
+		<prerequisites>
+			<li>AM_StellarProcessingChipCrafting</li>
+		</prerequisites>
+		<requiredAnalyzed>
+			<li>AM_QuantumMatrixChip</li>
+		</requiredAnalyzed>
+
+		<tab>nehr_CraftMechtechChips</tab>
+		<researchViewX>5.00</researchViewX>
+		<researchViewY>0.00</researchViewY>
+	</ResearchProjectDef>
+</Defs>
