@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='utf-8'?>
+<LanguageData>
+  <Craft_Mechlink.label>craft mechlink</Craft_Mechlink.label>
+  <Craft_Mechlink.description>Craft a mechlink, a bionic implant that allows direct control of mechanoids.</Craft_Mechlink.description>
+  <Craft_Mechlink.jobString>Crafting a mechlink.</Craft_Mechlink.jobString>
+  <Craft_SignalChip.label>craft signal chip</Craft_SignalChip.label>
+  <Craft_SignalChip.description>Craft a signal chip, normally dropped by Diabolus.</Craft_SignalChip.description>
+  <Craft_SignalChip.jobString>Crafting a signal chip.</Craft_SignalChip.jobString>
+  <Craft_PowerfocusChip.label>craft powerfocus chip</Craft_PowerfocusChip.label>
+  <Craft_PowerfocusChip.description>Craft a powerfocus chip, normally dropped by Warqueen.</Craft_PowerfocusChip.description>
+  <Craft_PowerfocusChip.jobString>Crafting a powerfocus chip.</Craft_PowerfocusChip.jobString>
+  <Craft_NanostructuringChip.label>craft nano structuring chip</Craft_NanostructuringChip.label>
+  <Craft_NanostructuringChip.description>Craft a nano structuring chip, normally dropped by Apocriton.</Craft_NanostructuringChip.description>
+  <Craft_NanostructuringChip.jobString>Crafting a nano structuring chip.</Craft_NanostructuringChip.jobString>
+</LanguageData>

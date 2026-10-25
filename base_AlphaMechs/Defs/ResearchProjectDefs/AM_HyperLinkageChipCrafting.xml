@@ -2,8 +2,7 @@
 	<ResearchProjectDef ParentName="MechtechBase">
 		<defName>AM_HyperLinkageChipCrafting</defName>
 		<label>hyper-linkage chip crafting</label>
-		<description>The technology needed for your mechanitor to craft beamcasting-band synchronization
-			micro-organs, also known as hyper-linkage chips.</description>
+		<description>The technology needed for your mechanitor to craft beamcasting-band synchronization micro-organs, also known as hyper-linkage chips.</description>
 		<baseCost>3000</baseCost>
 		<techprintMarketValue>6000</techprintMarketValue>
 		<requiredResearchFacilities>

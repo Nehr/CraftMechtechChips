@@ -2,8 +2,7 @@
 	<ResearchProjectDef ParentName="MechtechBase">
 		<defName>MechlinkCrafting</defName>
 		<label>mechlink crafting</label>
-		<description>The technology needed for your mechanitor to craft a bionic implant that allows
-			direct control of mechanoids.</description>
+		<description>The technology needed for your mechanitor to craft a bionic implant that allows direct control of mechanoids.</description>
 
 		<techLevel>Ultra</techLevel>
 		<baseCost>6000</baseCost>

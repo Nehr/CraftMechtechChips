@@ -2,8 +2,7 @@
 	<ResearchProjectDef ParentName="MechtechBase">
 		<defName>AM_StellarProcessingChipCrafting</defName>
 		<label>stellar processing chip crafting</label>
-		<description>The technology needed for your mechanitor to craft voidlink-focusing mechanoid
-			micro-organs, also known as stellar processing chips.</description>
+		<description>The technology needed for your mechanitor to craft voidlink-focusing mechanoid micro-organs, also known as stellar processing chips.</description>
 		<baseCost>3000</baseCost>
 		<techprintMarketValue>6000</techprintMarketValue>
 		<requiredResearchFacilities>
