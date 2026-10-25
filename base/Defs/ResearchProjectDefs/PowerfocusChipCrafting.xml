@@ -2,8 +2,7 @@
 	<ResearchProjectDef ParentName="MechtechBase">
 		<defName>PowerfocusChipCrafting</defName>
 		<label>powerfocus chip crafting</label>
-		<description>The technology needed for your mechanitor to craft energy-focusing mechanoid
-			micro-organs, also known as powerfocus chips.</description>
+		<description>The technology needed for your mechanitor to craft energy-focusing mechanoid micro-organs, also known as powerfocus chips.</description>
 
 		<baseCost>2500</baseCost>
 		<techprintMarketValue>4000</techprintMarketValue>
