@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='utf-8'?>
+<LanguageData>
+  <AM_HyperLinkageChipCrafting.label>hyper-linkage chip crafting</AM_HyperLinkageChipCrafting.label>
+  <AM_HyperLinkageChipCrafting.description>The technology needed for your mechanitor to craft beamcasting-band synchronization micro-organs, also known as hyper-linkage chips.</AM_HyperLinkageChipCrafting.description>
+  <AM_QuantumMatrixChipCrafting.label>quantum matrix chip crafting</AM_QuantumMatrixChipCrafting.label>
+  <AM_QuantumMatrixChipCrafting.description>The technology needed for your mechanitor to craft quantum-restructing mechanoid micro-organs, also known as quantum matrix chips.</AM_QuantumMatrixChipCrafting.description>
+  <AM_StellarProcessingChipCrafting.label>stellar processing chip crafting</AM_StellarProcessingChipCrafting.label>
+  <AM_StellarProcessingChipCrafting.description>The technology needed for your mechanitor to craft voidlink-focusing mechanoid micro-organs, also known as stellar processing chips.</AM_StellarProcessingChipCrafting.description>
+</LanguageData>

@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='utf-8'?>
+<LanguageData>
+  <MechlinkCrafting.label>mechlink crafting</MechlinkCrafting.label>
+  <MechlinkCrafting.description>The technology needed for your mechanitor to craft a bionic implant that allows direct control of mechanoids.</MechlinkCrafting.description>
+  <NanostructuringChipCrafting.label>nano structuring chip crafting</NanostructuringChipCrafting.label>
+  <NanostructuringChipCrafting.description>The technology needed for your mechanitor to craft molecular-restructing mechanoid micro-organs, also known as nano structuring chips.</NanostructuringChipCrafting.description>
+  <PowerfocusChipCrafting.label>powerfocus chip crafting</PowerfocusChipCrafting.label>
+  <PowerfocusChipCrafting.description>The technology needed for your mechanitor to craft energy-focusing mechanoid micro-organs, also known as powerfocus chips.</PowerfocusChipCrafting.description>
+  <SignalChipCrafting.label>signal chip crafting</SignalChipCrafting.label>
+  <SignalChipCrafting.description>The technology needed for your mechanitor to craft mechanoid-band synchronization micro-organs, also known as signal chips.</SignalChipCrafting.description>
+</LanguageData>

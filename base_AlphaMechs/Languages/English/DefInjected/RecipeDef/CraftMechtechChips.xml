@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='utf-8'?>
+<LanguageData>
+  <Craft_AM_HyperLinkageChip.label>craft hyper-linkage chip</Craft_AM_HyperLinkageChip.label>
+  <Craft_AM_HyperLinkageChip.description>Craft a hyper-linkage chip (tier 4), normally dropped by Infernus.</Craft_AM_HyperLinkageChip.description>
+  <Craft_AM_HyperLinkageChip.jobString>Crafting a hyper-linkage chip.</Craft_AM_HyperLinkageChip.jobString>
+  <Craft_AM_StellarProcessingChip.label>craft stellar processing chip</Craft_AM_StellarProcessingChip.label>
+  <Craft_AM_StellarProcessingChip.description>Craft a stellar processing chip (tier 5), normally dropped by the War Empress.</Craft_AM_StellarProcessingChip.description>
+  <Craft_AM_StellarProcessingChip.jobString>Crafting a stellar processing chip.</Craft_AM_StellarProcessingChip.jobString>
+  <Craft_AM_QuantumMatrixChip.label>craft quantum matrix chip</Craft_AM_QuantumMatrixChip.label>
+  <Craft_AM_QuantumMatrixChip.description>Craft a quantum matrix chip (tier 6), normally dropped by Apoptosis.</Craft_AM_QuantumMatrixChip.description>
+  <Craft_AM_QuantumMatrixChip.jobString>Crafting a quantum matrix chip.</Craft_AM_QuantumMatrixChip.jobString>
+</LanguageData>

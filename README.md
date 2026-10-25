@@ -9,7 +9,7 @@ Unlock the power to craft mechtech chips through research once you've analyzed t
 
 Additionally, this mod introduces a research project for Mechlink crafting.
 
-This mod is safe to add or remove from your saves at any time (though it's best not to remove it during the crafting process).
+This mod can be added to existing saves. Before removing it, back up your save and finish or cancel any active crafting jobs and bills added by this mod.
 
 This mod is tailored for end-game progression, offering experienced players an alternative pathway to enhance their technological capabilities. It aims to offer a supplementary method for advancing within the game.
 
@@ -18,8 +18,8 @@ This mod is tailored for end-game progression, offering experienced players an a
 ![How to](images/rw-mod-strip.png)
 
 1. Analyze the chip.
-2. Unlock the crafting ability through research in the crafting tab.
-3. Fabricate the mechtech chip using a fabricator.
+2. Unlock the crafting ability through research in the Mechtech crafting tab.
+3. Fabricate the mechtech chip at a fabrication bench.
 
 ### ![Features](images/rimworld-features.png)
 
@@ -37,42 +37,51 @@ The ability to craft
 
 Now compatible with the AlphaMechs mod, allowing you to craft Hyper-linkage chips, Stellar processing chips, and Quantum matrix chips! (Ensure this mod is loaded after AlphaMechs for proper functionality.)
 
-## In-game values
-### Research time
-Requires Multi analyzer.
-- Signal chip: 3000
-- Powerfocus chip: 4000
-- Nanostructuring chip: 5000
+## In-game values (RimWorld 1.6 / 1.7)
+### Base research cost
+Requires Multi analyzer for Powerfocus, Nano structuring, and Mechlink research.
+- Signal chip: 2000
+- Powerfocus chip: 2500
+- Nanostructuring chip: 3000
+- Mechlink: 6000
 ### Crafting costs
 Requires Fabrication bench.
 #### Signal chip
 - Basic subcore (1)
-- Advanced component (6)
-- Plasteel (50)
+- Advanced component (4)
+- Plasteel (30)
 #### Powerfocus chip
 - Signal chip (2)
 - Standard subcore (1)
 - Advanced component (6)
-- Plasteel (75)
+- Plasteel (40)
 #### Nano structuring chip
 - Powerfocus chip (2)
 - High subcore (1)
-- Plasteel (120)
+- Plasteel (50)
 - Advanced component (8)
+- Uranium (10)
+#### Mechlink
+- High subcore (2)
+- Integrator headset (1)
+- AI persona core (1)
+- Advanced component (16)
 ### Skills needed to craft
 - Signal chip: 9 crafting (can be crafted by fabricators)
 - Powerfocus chip: 10 crafting (can be crafted by fabricators)
-- Nano structuring chip: 10 crafting, 16 intellectual (must be crafted by a colonist)
-### Amount of work (time)
+- Nano structuring chip: 10 crafting, 14 intellectual (must be crafted by a colonist)
+- Mechlink: 10 crafting, 18 intellectual (must be crafted by a colonist)
+### Work amount
 - Signal chip: 8000
 - Powerfocus chip: 10000
 - Nano structuring chip: 12000
-## In-game values for AlphaMechs
-### Research time
+- Mechlink: 18000
+## In-game values for AlphaMechs (RimWorld 1.6 / 1.7)
+### Base research cost
 Requires Multi analyzer.
-- Hyper-linkage chip: 6000
-- Stellar processing chip: 6000
-- Quantum matrix chip: 6000
+- Hyper-linkage chip: 3000
+- Stellar processing chip: 3000
+- Quantum matrix chip: 3000
 ### Crafting costs
 Requires Fabrication bench.
 #### Hyper-linkage chip
@@ -83,22 +92,25 @@ Requires Fabrication bench.
 #### Stellar processing chip
 - Hyper-linkage chip (2)
 - High subcore (2)
-- Advanced component (12)
+- Advanced component (8)
 - Uranium (10)
 #### Quantum matrix chip
 - Stellar processing chip (2)
-- High subcore (4)
-- Advanced component (12)
+- High subcore (3)
+- Advanced component (10)
 - Uranium (10)
 ### Skills needed to craft (must be crafted by a colonist)
-- Hyper-linkage chip: 10 crafting, 18 intellectual
-- Stellar processing chip: 12 crafting, 18 intellectual
-- Quantum matrix chip: 12 crafting, 20 intellectual
-### Amount of work (time)
+- Hyper-linkage chip: 10 crafting, 15 intellectual
+- Stellar processing chip: 10 crafting, 16 intellectual
+- Quantum matrix chip: 10 crafting, 18 intellectual
+### Work amount
 - Hyper-linkage chip: 14000
 - Stellar processing chip: 16000
 - Quantum matrix chip: 18000
 ## Patch notes
+### CMC build 1.7
+- Updated for Rimworld 1.7
+- Updated README values to match existing recipes and research costs
 ### CMC build 1.6
 - Updated for Rimworld 1.6
 - Restructured folders and stuff

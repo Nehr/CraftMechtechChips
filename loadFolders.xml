@@ -15,4 +15,9 @@
     <li>base</li>
     <li IfModActive="sarg.alphamechs">base_AlphaMechs</li>
   </v1.6>
+  <v1.7>
+    <li>/</li>
+    <li>base</li>
+    <li IfModActive="sarg.alphamechs">base_AlphaMechs</li>
+  </v1.7>
 </loadFolders>
