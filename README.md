@@ -110,6 +110,7 @@ Requires Fabrication bench.
 ## Patch notes
 ### CMC build 1.7
 - Updated for Rimworld 1.7
+- Fixed some unintentional line breaks
 - Updated README values to match existing recipes and research costs
 ### CMC build 1.6
 - Updated for Rimworld 1.6
